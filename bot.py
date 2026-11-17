@@ -36,10 +36,8 @@ os.makedirs(DATA_DIR, exist_ok=True)
 # Admin IDs: set ADMIN_IDS="123,456" as an env var, or edit the fallback below.
 _env_ids = os.getenv("ADMIN_IDS", "")
 ADMIN_IDS = {int(x) for x in _env_ids.replace(" ", "").split(",") if x.isdigit()} or {
-    7599601301,  # KR
-    8637601933,
-    8976017144,
-    7467197752,
+    8271828643,  # KR
+    
 }
 
 # Per-user setting defaults (the type of the default decides how it's parsed)
